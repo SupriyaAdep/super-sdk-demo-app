@@ -1,5 +1,3 @@
-import { useState } from "react";
-import reactLogo from "./assets/react.svg";
 import "./App.css";
 import UsersContainer from "./components/UsersContainer";
 import UsersMediaContainer from "./components/UsersMediaContainer";

@@ -4,3 +4,24 @@
   border-style: solid;
   border-color: rgba(0, 0, 0, 0.5);
 }
+
+/* Collapse */
+.collapse .--header {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  background-color: #c6cfd7;
+  height: 50px;
+  align-items: center;
+  padding: 0 10px;
+}
+
+.collapse .--header .--title {
+  font-size: 22px;
+  font-weight: 700;
+}
+
+.collapse .--content {
+  overflow: hidden;
+  transition: height ease 0.3s;
+}
