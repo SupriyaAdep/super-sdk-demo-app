@@ -3,7 +3,6 @@ import React from "react";
 export default function UsersMediaContainer() {
   return (
     <section className="user-media">
-      <div className="section-title">User Medias</div>
       <div className="user-media-table">
         <div className="row">
           {[...Array(30).keys()].map((el, i) => (
