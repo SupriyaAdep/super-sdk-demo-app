@@ -1,0 +1,6 @@
+.divider {
+  flex-shrink: 0;
+  border-width: 0px 0px thick;
+  border-style: solid;
+  border-color: rgba(0, 0, 0, 0.5);
+}
